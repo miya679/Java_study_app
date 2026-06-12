@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run Java_study_app",
+      "request": "launch",
+      "mainClass": "app.Main",
+      "preLaunchTask": "build Java_study_app",
+      "classPaths": [
+        "${workspaceFolder}/out",
+        "${workspaceFolder}/src/main/resources"
+      ]
+    }
+  ]
+}

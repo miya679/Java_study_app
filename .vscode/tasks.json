@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build Java_study_app",
+      "type": "shell",
+      "command": "javac --release 17 -d out src\\main\\java\\app\\*.java src\\main\\java\\app\\component\\*.java src\\main\\java\\app\\ui\\*.java; Copy-Item -Recurse -Force src\\main\\resources\\* out\\",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
